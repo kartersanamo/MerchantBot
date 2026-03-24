@@ -1,0 +1,160 @@
+{
+  "TOGGLE_STATUS": "Enabled",
+  "Billing & Purchases": {
+    "Payment Issues": {
+      "Status": "Enabled",
+      "Ticket Logs": 944653873216376863,
+      "Emoji": "💳",
+      "Description": "Failed checkout, duplicate charge, or payment declined.",
+      "Category": 1485720046998126714,
+      "Message": "Use this for checkout/payment issues only.",
+      "Roles": [918899938660868117],
+      "Pings": [918899938660868117],
+      "Questions": [
+        { "Label": "Purchase email", "Placeholder": "you@example.com", "Length": "Short" },
+        { "Label": "Order/transaction ID", "Placeholder": "Paste your order ID", "Length": "Short" },
+        { "Label": "Describe the payment issue", "Placeholder": "What happened and when?", "Length": "Long" }
+      ]
+    },
+    "Refund Request": {
+      "Status": "Enabled",
+      "Ticket Logs": 944653873216376863,
+      "Emoji": "🧾",
+      "Description": "Request a refund review for an order.",
+      "Category": 1485720046998126714,
+      "Message": "Refunds are reviewed case-by-case under policy.",
+      "Roles": [918899938660868117],
+      "Pings": [918899938660868117],
+      "Questions": [
+        { "Label": "Plugin/order to review", "Placeholder": "Plugin + order ID", "Length": "Short" },
+        { "Label": "Refund reason", "Placeholder": "Why are you requesting a refund?", "Length": "Long" }
+      ]
+    },
+    "License Not Working": {
+      "Status": "Enabled",
+      "Ticket Logs": 944653873216376863,
+      "Emoji": "🔑",
+      "Description": "License key invalid, not found, or failing verification.",
+      "Category": 1485720046998126714,
+      "Message": "Provide exact errors and server/plugin version details.",
+      "Roles": [918899938660868117],
+      "Pings": [918899938660868117],
+      "Questions": [
+        { "Label": "License key (or preview)", "Placeholder": "XXXX-XXXX...", "Length": "Short" },
+        { "Label": "Plugin and version", "Placeholder": "Plugin name + version", "Length": "Short" },
+        { "Label": "Exact error/output", "Placeholder": "Paste logs or screenshots", "Length": "Long" }
+      ]
+    }
+  },
+  "Seller Support": {
+    "Plugin Listing Help": {
+      "Status": "Enabled",
+      "Ticket Logs": 944653873216376863,
+      "Emoji": "🛍️",
+      "Description": "Help with listing, updating, or publishing a plugin.",
+      "Category": 1485720046998126714,
+      "Message": "Seller support for plugin pages, metadata, and releases.",
+      "Roles": [918899938660868117],
+      "Pings": [918899938660868117],
+      "Questions": [
+        { "Label": "Plugin slug/name", "Placeholder": "my-plugin", "Length": "Short" },
+        { "Label": "What are you trying to do?", "Placeholder": "Create listing, publish version, etc.", "Length": "Short" },
+        { "Label": "Issue details", "Placeholder": "Please include exact errors if available", "Length": "Long" }
+      ]
+    },
+    "Payout & Revenue Questions": {
+      "Status": "Enabled",
+      "Ticket Logs": 944653873216376863,
+      "Emoji": "💸",
+      "Description": "Questions about payouts, fees, or revenue reports.",
+      "Category": 1485720046998126714,
+      "Message": "Financial/accounting inquiries for sellers.",
+      "Roles": [918899938660868117],
+      "Pings": [918899938660868117],
+      "Questions": [
+        { "Label": "Seller account email", "Placeholder": "you@example.com", "Length": "Short" },
+        { "Label": "Payout period/date", "Placeholder": "Date range or payout ID", "Length": "Short" },
+        { "Label": "Question details", "Placeholder": "What payout/revenue issue are you seeing?", "Length": "Long" }
+      ]
+    }
+  },
+  "Buyer Support": {
+    "Download / Access Issues": {
+      "Status": "Enabled",
+      "Ticket Logs": 944653873216376863,
+      "Emoji": "📦",
+      "Description": "Purchased plugin not downloadable or inaccessible.",
+      "Category": 1485720046998126714,
+      "Message": "Use this if the purchase is complete but access is missing.",
+      "Roles": [918899938660868117],
+      "Pings": [918899938660868117],
+      "Questions": [
+        { "Label": "Order ID", "Placeholder": "Paste order ID", "Length": "Short" },
+        { "Label": "Plugin purchased", "Placeholder": "Plugin name", "Length": "Short" },
+        { "Label": "What access is missing?", "Placeholder": "Describe what you can/cannot see", "Length": "Long" }
+      ]
+    },
+    "Version / Compatibility Questions": {
+      "Status": "Enabled",
+      "Ticket Logs": 944653873216376863,
+      "Emoji": "🧩",
+      "Description": "Questions about versions, requirements, or setup.",
+      "Category": 1485720046998126714,
+      "Message": "General buyer-side plugin compatibility support.",
+      "Roles": [918899938660868117],
+      "Pings": [918899938660868117],
+      "Questions": [
+        { "Label": "Plugin and target server version", "Placeholder": "Plugin X on 1.20.4", "Length": "Short" },
+        { "Label": "Platform", "Placeholder": "Paper/Spigot/Purpur/etc.", "Length": "Short" },
+        { "Label": "Question/problem details", "Placeholder": "Describe your setup and issue", "Length": "Long" }
+      ]
+    }
+  },
+  "Account & Discord": {
+    "Account Access Issues": {
+      "Status": "Enabled",
+      "Ticket Logs": 944653873216376863,
+      "Emoji": "👤",
+      "Description": "Login, 2FA, account recovery, or ownership verification.",
+      "Category": 1485720046998126714,
+      "Message": "For sensitive account issues and recovery requests.",
+      "Roles": [918899938660868117],
+      "Pings": [918899938660868117],
+      "Questions": [
+        { "Label": "Account email", "Placeholder": "you@example.com", "Length": "Short" },
+        { "Label": "Issue type", "Placeholder": "2FA, password reset, account recovery", "Length": "Short" },
+        { "Label": "Issue details", "Placeholder": "Include timeline and any relevant screenshots", "Length": "Long" }
+      ]
+    },
+    "Discord Bot / Server Issues": {
+      "Status": "Enabled",
+      "Ticket Logs": 944653873216376863,
+      "Emoji": "🤖",
+      "Description": "Problems with MerchantBot commands, panels, or permissions.",
+      "Category": 1485720046998126714,
+      "Message": "For Discord-side bot behavior and role/channel issues.",
+      "Roles": [918899938660868117],
+      "Pings": [918899938660868117],
+      "Questions": [
+        { "Label": "Where did this happen?", "Placeholder": "Channel/command/panel", "Length": "Short" },
+        { "Label": "Expected behavior", "Placeholder": "What should have happened?", "Length": "Short" },
+        { "Label": "Actual behavior", "Placeholder": "What happened instead? Include errors/screenshots", "Length": "Long" }
+      ]
+    },
+    "Discord Verification Help": {
+      "Status": "Enabled",
+      "Ticket Logs": 944653873216376863,
+      "Emoji": "✅",
+      "Description": "Cannot sync/unsync Discord with MCMerchant account.",
+      "Category": 1485720046998126714,
+      "Message": "Use this if account linking does not complete.",
+      "Roles": [918899938660868117],
+      "Pings": [918899938660868117],
+      "Questions": [
+        { "Label": "MCMerchant username", "Placeholder": "Your website username", "Length": "Short" },
+        { "Label": "Discord user ID", "Placeholder": "Your Discord ID", "Length": "Short" },
+        { "Label": "What step failed?", "Placeholder": "Describe what you clicked and what happened", "Length": "Long" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "Billing And Purchases": {
+    "Payment Issue": {
+      "emoji": "💳",
+      "description": "Checkout problems, failed payments, or charge issues.",
+      "support_role_ids": [],
+      "questions": [
+        {
+          "label": "What email was used for purchase?",
+          "placeholder": "you@example.com",
+          "style": "short"
+        },
+        {
+          "label": "Order details or transaction reference",
+          "placeholder": "Any order IDs, receipts, or logs...",
+          "style": "long"
+        }
+      ]
+    },
+    "Refund Request": {
+      "emoji": "🧾",
+      "description": "Request a refund for a plugin purchase.",
+      "support_role_ids": [],
+      "questions": [
+        {
+          "label": "Which plugin/order should be reviewed?",
+          "placeholder": "Plugin name + order details",
+          "style": "short"
+        },
+        {
+          "label": "Why are you requesting a refund?",
+          "placeholder": "Provide context and timeline...",
+          "style": "long"
+        }
+      ]
+    }
+  },
+  "Plugin Support": {
+    "Seller Help": {
+      "emoji": "🛠️",
+      "description": "Need help with anything as a seller?",
+      "support_role_ids": [],
+      "questions": [
+        {
+          "label": "Which plugin are you having issues with?",
+          "placeholder": "Plugin name",
+          "style": "short"
+        },
+        {
+          "label": "What are you blocked on?",
+          "placeholder": "I can't do this, I can't do that, etc.",
+          "style": "short"
+        }
+      ]
+    },
+    "Buyer Help": {
+      "emoji": "🔌",
+      "description": "Need help with anything as a buyer?",
+      "support_role_ids": [],
+      "questions": [
+        {
+          "label": "Which plugin are you having issues with?",
+          "placeholder": "Plugin name",
+          "style": "short"
+        },
+        {
+          "label": "What are you blocked on?",
+          "placeholder": "I can't do this, I can't do that, etc.",
+          "style": "short"
+        }
+      ]
+    }
+  },
+  "Other Help": {
+    "Discord Help": {
+      "emoji": "✅",
+      "description": "Need help with anything on Discord?",
+      "support_role_ids": [],
+      "questions": [
+        {
+          "label": "What is the issue?",
+          "placeholder": "What are you trying to do?",
+          "style": "long"
+        },
+        {
+          "label": "What are you blocked on?",
+          "placeholder": "I can't do this, I can't do that, etc.",
+          "style": "short"
+        }
+      ]
+    },
+    "Account Issue": {
+      "emoji": "👤",
+      "description": "Login, username, or account-access problems.",
+      "support_role_ids": [],
+      "questions": [
+        {
+          "label": "Which account email is affected?",
+          "placeholder": "you@example.com",
+          "style": "short"
+        },
+        {
+          "label": "Describe the issue",
+          "placeholder": "What are you blocked on?",
+          "style": "long"
+        }
+      ]
+    }
+  }
+}
