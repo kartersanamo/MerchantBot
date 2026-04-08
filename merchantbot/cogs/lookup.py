@@ -86,10 +86,13 @@ class LookupCog(commands.Cog):
     await interaction.response.defer(ephemeral=False, thinking=True)
     base = self.bot.settings.mcmerchant_base_url.rstrip("/")
     url = f"{base}/api/v1/plugins/search?q={quote(name.strip())}"
+    headers = {}
+    if self.bot.settings.mcmerchant_bot_api_key:
+      headers["x-mcmerchant-bot-key"] = self.bot.settings.mcmerchant_bot_api_key
 
     try:
       async with aiohttp.ClientSession() as session:
-        async with session.get(url, timeout=12) as response:
+        async with session.get(url, headers=headers, timeout=12) as response:
           data = await response.json(content_type=None)
     except Exception as exc:  # noqa: BLE001
       await interaction.followup.send(f"Could not load plugin info right now. Error: `{exc}`")
